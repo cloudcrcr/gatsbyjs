@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: c
+- type: document
+  path: c
+  label: c
+  match: "**/*"
 - type: directory
   path: ''
   label: c
